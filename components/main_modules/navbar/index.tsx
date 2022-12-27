@@ -11,7 +11,7 @@ const Navbar: NextPage = () => {
         </Toolbar>
         <Toolbar>
           {AppbarData.map((item) => (
-            <AppbarLink href={item.url}>
+            <AppbarLink key={item.id} href={item.url}>
               <span>{item.name}</span>
               <span>{item.icon}</span>
             </AppbarLink>
