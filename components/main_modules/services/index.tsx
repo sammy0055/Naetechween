@@ -1,4 +1,4 @@
-import { CardWrapper, ServiceContainer } from "../Banner/services_components";
+import { CardWrapper, ServiceContainer } from "./services_components";
 import { Bigheading, SmHeading } from "../../atom/headings/text";
 import Card from "../../organisms/card";
 import cardData from "../../../data/card";

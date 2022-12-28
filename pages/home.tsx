@@ -5,6 +5,7 @@ import Navbar from "../components/main_modules/navbar";
 import { GlobalStyle } from "../styles/globalStyles";
 import Banner from "../components/main_modules/Banner";
 import Services from "../components/main_modules/services";
+import Project from "../components/main_modules/project";
 
 export type theme = {
   backgroundColors: {
@@ -79,6 +80,7 @@ const Home: NextPage = () => {
           <Navbar />
           <Banner />
           <Services />
+          <Project />
         </main>
       </ThemeProvider>
     </>
