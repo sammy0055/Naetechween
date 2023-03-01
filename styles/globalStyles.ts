@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { theme } from "../pages/home";
+import { theme } from "../pages";
 export const GlobalStyle = createGlobalStyle`
 body {
     margin: 0;

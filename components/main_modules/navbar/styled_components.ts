@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 
 export const Appbar = styled.nav`
   display: flex;

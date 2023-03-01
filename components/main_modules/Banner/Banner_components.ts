@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 import Link from "next/link";
 
 export const BannerWrapper = styled.div`

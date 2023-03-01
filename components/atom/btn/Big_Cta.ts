@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 
 export const BigButton = styled.button`
   width: 11rem;
@@ -15,5 +15,5 @@ export const BigButton = styled.button`
   text-align: center;
   cursor: pointer;
   margin: 12px;
-  padding:6px;
+  padding: 6px;
 `;

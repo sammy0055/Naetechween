@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 
 export const SmHeading = styled.h4`
   color: ${(props: { theme: theme }) => props.theme.textColors.secondary};

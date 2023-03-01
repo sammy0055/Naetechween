@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 
 interface styleType {
   theme: theme;

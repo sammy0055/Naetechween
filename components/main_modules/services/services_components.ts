@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { theme } from "../../../pages/home";
+import { theme } from "../../../pages";
 
 export const ServiceContainer = styled.div`
-text-align: center;
+  text-align: center;
   width: 100%;
   height: 100vh;
   background-color: ${(props: { theme: theme }) =>
@@ -11,6 +11,6 @@ text-align: center;
 `;
 
 export const CardWrapper = styled.div`
-display: flex;
-justify-content: space-evenly;
-`
+  display: flex;
+  justify-content: space-evenly;
+`;
