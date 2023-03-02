@@ -25,7 +25,7 @@ export const Title = styled.h1`
 `;
 
 export const BigText = styled(Title)`
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: bolder;
   font-family: Roboto;
   margin: 0;

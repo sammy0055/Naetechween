@@ -8,8 +8,9 @@ const Project: React.FC = () => {
   return (
     <>
       <Pwrapper>
-        .<MediumHeading>Projects</MediumHeading>
+        .
         <div style={{backgroundColor:"#1f262e"}}>
+        <MediumHeading>Projects</MediumHeading>
           <Box1>
             <SmHeading>Kindroom</SmHeading>
             <Bigheading>For Designer</Bigheading>

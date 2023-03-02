@@ -25,22 +25,22 @@ const Banner: NextPage = () => {
           <Title>
             Start a<br /> new project with
           </Title>
-          <BigText>Minimal</BigText>
+          <BigText>Neatechween</BigText>
           <Subtitle>
-            The starting point for your next project is based on MUI.
-            <br />
-            Easy customization Helps you build apps faster and better.
+            Your next project is based on End-to-end software <br /> development services, from ideation to deployment and maintenance.
+           <br />
+            Responsive and user-friendly web design for enhanced user experience.
           </Subtitle>
           <BigCta
             type="button"
             Icon={BsLightningChargeFill}
-            text="Live preview"
+            text="project preview"
             showIcon
           />
           <BigCta
             type="button"
             Icon={MdOpenInNew}
-            text="Design Preview"
+            text="Contact US"
             showIcon
           />
           <Version href={"#"}>

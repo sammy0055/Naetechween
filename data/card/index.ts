@@ -7,7 +7,7 @@ export default [
     color: "orange",
     icon: HiOutlinePencilSquare,
     heading: "Branding",
-    paragrah: "Consistent design makes it easy to brand your own.",
+    paragrah: "Developing a strong brand identity that resonates with your target audience. Ensuring brand authenticity by aligning your brand values with your business practices and operations.",
   },
   {
     id: 1,
@@ -16,13 +16,13 @@ export default [
     heading: "UI & UX Design",
     classes:"shadow",
     paragrah:
-      "The kit is built on the principles of the atomic design system. It helps you to create projects fastest and easily customized packages for your projects.",
+      "Responsive and user-friendly web design for enhanced user experience. Expertise in the latest web development technologies and frameworks",
   },
   {
     id: 2,
     color: "#049ab7",
     icon: RiCodeBoxFill,
     heading: "Development",
-    paragrah: "Easy to customize and extend, saving you time and money.",
+    paragrah: "Customized web development services to cater to your unique business needs. Extensive testing and quality assurance to ensure error-free and high-performance applications.",
   },
 ];
