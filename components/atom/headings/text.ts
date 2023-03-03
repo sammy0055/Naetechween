@@ -14,6 +14,7 @@ export const Bigheading = styled(SmHeading)`
   color: ${(props: { theme: theme }) => props.theme.textColors.primary};
   font-size: 48px;
   padding: 0;
+  padding-top: 0px;
 `;
 
 export const Heading = styled(Bigheading)`
