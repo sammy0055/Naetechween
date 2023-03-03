@@ -12,7 +12,6 @@ import {
   Boxwrapper,
   IframBox,
 } from "./project_components";
-import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
 
 const Project: React.FC = () => {
@@ -26,12 +25,6 @@ const Project: React.FC = () => {
             <Bigheading>
               A live rent free by providing <br /> value platform
             </Bigheading>
-            {/* <BigCta
-              type="button"
-              text="visit webpage"
-              Icon={BsArrowRight}
-              showIcon
-            /> */}
             <ContributionListwrapper>
               <Unorderlist>
                 <List>
@@ -46,7 +39,7 @@ const Project: React.FC = () => {
                 </List>
                 <List>Developed new features and functionalities</List>
                 <List>
-                  Reviewed and provide feedback on other developers' code.
+                  Reviewed and provide feedback on other developers code.
                 </List>
               </Unorderlist>
 
@@ -68,9 +61,9 @@ const Project: React.FC = () => {
           <Box2>
             <Previewbox>
               <IframBox>
+                <Image src={""} alt="work sample" />
               </IframBox>
             </Previewbox>
-            {/* <Image src={""} alt="work sample" /> */}
           </Box2>
         </Boxwrapper>
       </Pwrapper>
